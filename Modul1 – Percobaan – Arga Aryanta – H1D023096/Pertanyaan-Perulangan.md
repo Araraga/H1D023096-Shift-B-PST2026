@@ -15,7 +15,7 @@ Berikut adalah representasi visual dari rangkaian 3 LED berjalan yang digunakan 
   </div>
 </div>
 
-### Tabel Pinout Rangkaian (5 LED)
+### Tabel Pinout Rangkaian (3 LED)
 
 Tabel berikut menjelaskan koneksi fisik antara komponen LED dan pin pada papan Arduino Uno berdasarkan visualisasi di atas.
 
