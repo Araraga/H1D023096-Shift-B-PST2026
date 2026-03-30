@@ -2,7 +2,7 @@
 
 ## 1. Rangkaian Schematic 5 LED Running
 
-Berikut adalah representasi visual dari rangkaian 5 LED berjalan yang digunakan dalam percobaan. Sesuai dengan pelaksanaan riil, rangkaian ini dirakit langsung tanpa menggunakan resistor pada masing-masing LED.
+Berikut adalah representasi visual dari rangkaian 3 LED berjalan yang digunakan dalam percobaan. Sesuai dengan pelaksanaan praktikum, rangkaian ini dirakit langsung tanpa menggunakan resistor pada masing-masing LED.
 
 <div style="display: flex; gap: 20px; align-items: start; margin-bottom: 20px;">
   <div style="flex: 1; text-align: center;">
@@ -33,7 +33,7 @@ Tabel berikut menjelaskan koneksi fisik antara komponen LED dan pin pada papan A
 Efek visual LED menyala bergantian dari arah kiri ke kanan dihasilkan melalui manipulasi variabel di dalam struktur perulangan `for` yang bersifat menaik (_increment_).
 
 **Mekanisme:**
-Program menggunakan perulangan `for (int i = 2; i <= 6; i++)`. Perulangan ini dimulai dari nilai pin terendah (misalnya 2). Pada setiap tahap iterasi, program menyalakan pin `i`, memberikan jeda waktu, lalu mematikannya kembali. Setelah itu, nilai `i` akan ditambah satu (`i++`), menyebabkan urutan perintah berpindah ke pin digital berikutnya yang berada di posisi sebelah kanan secara berurutan.
+Program menggunakan perulangan `for (int i = 2; i <= 6; i++)`. Perulangan ini dimulai dari nilai pin terendah. Pada setiap tahap iterasi, program menyalakan pin `i`, memberikan jeda waktu, lalu mematikannya kembali. Setelah itu, nilai `i` akan ditambah satu (`i++`), menyebabkan urutan perintah berpindah ke pin digital berikutnya yang berada di posisi sebelah kanan secara berurutan.
 
 ---
 
@@ -46,9 +46,9 @@ Program menggunakan perulangan `for (int i = 6; i >= 2; i--)`. Perulangan diinis
 
 ---
 
-## 4. Program Alternasi 3 LED Kiri dan 3 LED Kanan
+## 4. Program Alternasi 3 LED Kiri dan 3 LED Kanan 
 
-Program di bawah ini mengatur 6 buah LED agar menyala secara bergantian per grup (3 LED sisi kiri dan 3 LED sisi kanan). Penjelasan detail mengenai fungsi setiap baris kode telah dicantumkan dalam bentuk komentar.
+Program di bawah ini mengatur 3 buah LED agar menyala secara bergantian per grup (3 LED sisi kiri dan 3 LED sisi kanan). Namun dalam praktek pada lab kemarin yang dipasang pada breadboard hanya 3 buah LED. Penjelasan detail mengenai fungsi setiap baris kode telah dicantumkan dalam bentuk komentar.
 
 ```cpp
 /*
