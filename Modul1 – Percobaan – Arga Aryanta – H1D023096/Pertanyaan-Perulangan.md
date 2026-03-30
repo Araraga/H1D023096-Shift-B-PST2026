@@ -6,7 +6,7 @@ Berikut adalah representasi visual dari rangkaian 3 LED berjalan yang digunakan 
 
 <div style="display: flex; gap: 20px; align-items: start; margin-bottom: 20px;">
   <div style="flex: 1; text-align: center;">
-    <img src="schema.png" alt="Rangkaian Schematic Elektronika" style="width: 100%; border: 1px solid #ddd; border-radius: 8px;">
+    <img src="schematic.png" alt="Rangkaian Schematic Elektronika" style="width: 100%; border: 1px solid #ddd; border-radius: 8px;">
     <p><em>(Gambar A: Tampilan Schematic)</em></p>
   </div>
   <div style="flex: 1; text-align: center;">
