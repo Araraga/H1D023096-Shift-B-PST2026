@@ -2,15 +2,15 @@
 
 ## 1. Kondisi Program Masuk ke Blok `if`
 
-Program akan masuk dan mengeksekusi instruksi di dalam blok `if` apabila kondisi evaluasi persyaratan bernilai benar (_true_). [cite_start]Berdasarkan skrip kode percobaan, mikrokontroler akan mengeksekusi blok ini secara spesifik ketika nilai pada variabel `timeDelay` kurang dari atau sama dengan 100.
+Program akan masuk dan mengeksekusi instruksi di dalam blok `if` apabila kondisi evaluasi persyaratan bernilai benar (_true_). Berdasarkan kode Modul, mikrokontroler akan mengeksekusi blok ini secara spesifik ketika nilai pada variabel `timeDelay` kurang dari atau sama dengan 100.
 
 ## 2. Kondisi Program Masuk ke Blok `else`
 
-[cite_start]Program akan beralih dan mengeksekusi instruksi di dalam blok `else` apabila kondisi utama yang diuji pada blok `if` tidak terpenuhi atau bernilai salah (_false_). Dalam konteks operasional kode percobaan, blok `else` dieksekusi secara berulang selama nilai variabel `timeDelay` masih lebih besar dari angka 100.
+Program akan beralih dan mengeksekusi instruksi di dalam blok `else` apabila kondisi utama yang diuji pada blok `if` tidak terpenuhi atau bernilai salah (_false_). Dalam konteks operasional kode percobaan, blok `else` dieksekusi secara berulang selama nilai variabel `timeDelay` masih lebih besar dari angka 100.
 
 ## 3. Fungsi Perintah `delay(timeDelay)`
 
-[cite_start]Perintah `delay(timeDelay)` berfungsi untuk memberikan penundaan (jeda waktu) pada eksekusi siklus instruksi mikrokontroler[cite: 87, 90]. Durasi penundaan ini bersifat dinamis, bergantung pada nilai numerik yang tersimpan di dalam variabel `timeDelay` (dalam satuan milidetik). [cite_start]Fungsi ini esensial untuk menahan _state_ fisik pin digital, sehingga LED dapat dipertahankan dalam kondisi menyala (`HIGH`) atau mati (`LOW`) cukup lama agar efek visualnya dapat diamati oleh mata manusia.
+Perintah `delay(timeDelay)` berfungsi untuk memberikan penundaan (jeda waktu) pada eksekusi siklus instruksi mikrokontroler. Durasi penundaan ini bersifat dinamis, bergantung pada nilai numerik yang tersimpan di dalam variabel `timeDelay` (dalam satuan milidetik). Fungsi ini esensial untuk menahan _state_ fisik pin digital, sehingga LED dapat dipertahankan dalam kondisi menyala (`HIGH`) atau mati (`LOW`) cukup lama agar efek visualnya dapat diamati oleh mata manusia.
 
 ---
 
