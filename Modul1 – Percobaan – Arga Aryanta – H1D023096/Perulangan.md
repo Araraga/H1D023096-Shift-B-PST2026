@@ -15,8 +15,6 @@ Berikut adalah representasi visual dari rangkaian 5 LED berjalan yang digunakan 
   </div>
 </div>
 
-> **Catatan:** Ganti `jalur_ke_file_xxx.png` dengan jalur file gambar yang sebenarnya di _repository_ Anda agar gambar muncul.
-
 ### Tabel Pinout Rangkaian (5 LED)
 
 Tabel berikut menjelaskan koneksi fisik antara komponen LED dan pin pada papan Arduino Uno berdasarkan visualisasi di atas.
