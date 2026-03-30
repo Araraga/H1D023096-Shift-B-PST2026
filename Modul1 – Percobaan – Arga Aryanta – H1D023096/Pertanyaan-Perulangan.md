@@ -1,6 +1,6 @@
 # Jawaban Pertanyaan Perulangan
 
-## 1. Rangkaian Schematic 5 LED Running
+## 1. Rangkaian Schematic 3 LED 
 
 Berikut adalah representasi visual dari rangkaian 3 LED berjalan yang digunakan dalam percobaan. Sesuai dengan pelaksanaan praktikum, rangkaian ini dirakit langsung tanpa menggunakan resistor pada masing-masing LED.
 
